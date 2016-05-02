@@ -5,7 +5,7 @@
 
 }
 
-.default:hover{
+.default:hover {
     background-color: #0059bc;
 }
 
@@ -29,7 +29,7 @@
     height: 100%;
 }
 
-body{
+body {
     padding-top: 50px;
 }
 
@@ -38,24 +38,26 @@ body{
     -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s, opacity 1s;
     background-color: white;
-    width: 0px;  !important;
+    width: 0px;
+!important;
     height: 2px;
     opacity: 0;
 }
 
-.margin-line-top{
+.margin-line-top {
     margin-top: 10px !important;
 }
 
 .firstlineaniamte {
-    width: 200px;  !important;
+    width: 200px;
+!important;
 }
 
 .fadeline {
     opacity: 1;
 }
 
-.logofade{
+.logofade {
     -webkit-transition: opacity 0s; /* For Safari 3.1 to 6.0 */
     transition: opacity 0s;
     opacity: 0;
@@ -63,76 +65,76 @@ body{
     margin-bottom: 8px;
 }
 
-.logoshow{
+.logoshow {
     opacity: 1;
 }
 
-.taglinefade{
+.taglinefade {
     -webkit-transition: opacity 3s; /* For Safari 3.1 to 6.0 */
     transition: opacity 3s;
     opacity: 0;
 }
 
-.taglineshow{
+.taglineshow {
     opacity: 1;
 }
 
-
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-  .lele{
-      background-color: #0059bc;
-  }
+    .lele {
+        background-color: #0059bc;
+    }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-    .lele{
+    .lele {
         background-color: grey;
     }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-    .lele{
+    .lele {
         background-color: blueviolet;
     }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    .lele{
+    .lele {
         background-color: #b2dba1;
     }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-    .lele{
+    .lele {
         background-color: #b9151b;
     }
 }
 
-.planandplay{
+.planandplay {
 
     -webkit-transition: background-color 2s;
     transition: background-color 2s;
 }
 
-.splitandsettle{
+.splitandsettle {
 
     -webkit-transition: background-color 2s;
     transition: background-color 2s;
 }
 
-.planandplay:hover{
-background-color: cornflowerblue;
+.planandplay:hover {
+    background-color: cornflowerblue;
 }
 
-.splitandsettle:hover{
-background-color: cornflowerblue;
+.splitandsettle:hover {
+    background-color: cornflowerblue;
 }
 
-.changenavcolor{
-    background-color:yellow;!important;
+.changenavcolor {
+    background-color: yellow;
+!important;
 }
