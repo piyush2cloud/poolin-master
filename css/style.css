@@ -134,7 +134,18 @@ body {
     background-color: cornflowerblue;
 }
 
-.changenavcolor {
-    background-color: yellow;
-!important;
+.navheaderdefaultcolor{
+    background-color: #2E3842;
+}
+
+.changenavcolor{
+    background-color: red;
+}
+
+.hidelogo{
+    opacity:0;
+}
+
+.navbar-band{
+    padding:0px;
 }
